@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BigoController.exe" version="1.0.0.0" publicKeyToken="6dbfe1d9dd6f87d9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BigoController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BigoController.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="appium-dotnet-driver.dll" size="95744">
+      <assemblyIdentity name="appium-dotnet-driver" version="3.0.0.2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uzsF1pXSiO/YZ1hXiWu+I9ZHlOaCOoEOFWVffvG33u4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BigoController.exe" size="16352">
+      <assemblyIdentity name="BigoController" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>stDq7P8z+WVSWc/JCbjiRDFVDvq/T2oDwEC5x1VqlWQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Castle.Core.dll" size="436224">
+      <assemblyIdentity name="Castle.Core" version="3.3.0.0" publicKeyToken="407DD0808D44FBDC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j2RYVGq7fYip1LgstdG2rwa6uzaAyEeqr806DK8rWLM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="526336">
+      <assemblyIdentity name="Newtonsoft.Json" version="9.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V14w+Y5OpCyeUW7ci7sprYtQsXOj5rNrW6OeEzzOlAY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebDriver.dll" size="1602560">
+      <assemblyIdentity name="WebDriver" version="3.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SlAFXs81XtmXmGpjezYwnOSDAncJElXhAAt7U5omylU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebDriver.Support.dll" size="56832">
+      <assemblyIdentity name="WebDriver.Support" version="3.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WVZ+jG75y6kv1BvRkhSPpR8bqdTRcPDuWELc5WKmtts=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BigoController.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3J7BB3G\thanh" issuerKeyHash="6376a41b64e3f67e88cf19f6f30aa2b6e41455c6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>K+KofuTFcDI2HTchCxumEolw0/uVIT6Or81JfgOO7jI=</DigestValue></Reference></SignedInfo><SignatureValue>lArAGxRmxYP7jIV220Du7QLIADUHgEYyslLmb3p6SiWAnTDpd9a8H9bNOTAm/Y7sex7HTFAXxejoFqdQOh1cWquiRTcdL1jBmieS84u6CNvMKpBzMPiXHM7Ib7VyLmL9yaMKqmr8TSKTudFqYJwAEirL9dGY7uGFTBj866y8LDc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8ijBW0VM7tzF6gA2UBIyg0lQuptrnT5dC7F81I6UCIJYke8jeVSvimlq12Fftmtey7Pd8ty7ixUo2ccKpp6NdL0hsRBVXWIZta+SzlKzIK7yiklGQMt32caPsA8PFJ6cFTDhn6SRNn5kHg44/XnXJAWzvtFI7RWiQm7nVAmV0yE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="32ee8e037e49cdaf8e3e2195fbd3708912a61b0b21371d363270c5e47ea8e22b" Description="" Url=""><as:assemblyIdentity name="BigoController.exe" version="1.0.0.0" publicKeyToken="6dbfe1d9dd6f87d9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3J7BB3G\thanh</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1GRhpmpIrIPhy4W4NtogniCTeTBjEpUbkBxsqkb3VmY=</DigestValue></Reference></SignedInfo><SignatureValue>oAWn8pdY8aWs1Z10FhsRSCLKP7a3Yb7pW1D9mnTkkWhUvQuyg3QQXZrFgVpra95Km5U4KBVnMkwOfPsKanym+3GrsEGYe1pOweth2kgojha9eWxannJvhpQ4HrxarP31HoS7whOksDmHd0xfzyHBBmbc+FG7gEWUJuh7Q116aJ8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8ijBW0VM7tzF6gA2UBIyg0lQuptrnT5dC7F81I6UCIJYke8jeVSvimlq12Fftmtey7Pd8ty7ixUo2ccKpp6NdL0hsRBVXWIZta+SzlKzIK7yiklGQMt32caPsA8PFJ6cFTDhn6SRNn5kHg44/XnXJAWzvtFI7RWiQm7nVAmV0yE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYNee1kF2CL1Fy3Qy6fMoUzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMASgA3AEIAQgAzAEcAXAB0AGgAYQBuAGgwHhcNMTkwNzI0MTUwMjI5WhcNMjAwNzIzMjEwMjI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMASgA3AEIAQgAzAEcAXAB0AGgAYQBuAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPIowVtFTO7cxeoANlASMoNJULqba50+XQuxfNSOlAiCWJHvI3lUr4ppatdhX7ZrXsuz3fLcu4sVKNnHCqaejXS9IbEQVV1iGbWvks5SsyCu8opJRkDLd9nGj7APDxSenBUw4Z+kkTZ+ZB4OOP151yQFs77RSO0VokJu51QJldMhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACGj+wD+pkX2m/ZEjRQhKDpSMpHiwrTtp/kcgvFHjGH92Vrus/rwDu+xe/oaGHCBT9XGC7BKS+Wc79mATUiUshm+eogM/VZ5X+oWbmpXx8vUpzwvzcNSKI5cIJBw6P0QwhErbbGc/7FbJHsjwILt0J6+0IqD5EcydDPL7S75QbqU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
